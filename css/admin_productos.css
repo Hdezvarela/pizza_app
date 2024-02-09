@@ -1,0 +1,112 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}   
+.btn-info {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    margin: 3px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: normal;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 8px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.back-card{
+    background-color: #F7F6F6;
+}
+.prod-card{
+    background-color: #FDFEFE;
+}
+.img-prod{
+	height: 80px;
+	width: 80px;
+    margin: auto;
+	align-items: center;
+}
+
+/* Estrellas */
+#form star {
+	width: 250px;
+	margin: 0 auto;
+	height: 400px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+.p-star{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+  
+label {
+    color: grey;
+    font-size: 30px;
+	font-size: 30px;
+}
+  
+.clasificacion {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+  
+label:hover,label:hover ~ label {
+	color: orange;
+}
+  
+input[type="radio"]:checked ~ label {
+	color: orange;
+}
+  /* Fin Estrellas */
+
+.titulo-card{
+    color: #ff6500;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: wheat;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff6500;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ff6500;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+}
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}

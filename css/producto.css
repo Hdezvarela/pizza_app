@@ -1,0 +1,204 @@
+div.cuerpo{
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+	background: #f4f4f4;
+	position: relative;
+	min-height: 600px;
+	width: 1100px;
+	left: 125px;
+}
+
+div.producto{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	left: 75px;
+	top: 25px;
+}
+
+h1.nombre{
+	position: absolute;
+	user-select: none;
+	font-size: 2.5em;
+	color: #ff6500;
+	left: 425px;
+	top: 25px;
+}
+
+div.calificacion{
+	position: absolute;
+	user-select: none;
+	overflow: hidden;
+	height: 30px;
+	width: 175px;
+	left: 450px;
+	top: 80px;
+}
+
+.corazon{
+	background-image: url(../img/icons/corazon.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+
+div.addcarrito{
+	padding: 5px 10px 5px 10px;
+	background-color: #ff6500;
+	transition: all 0.6s ease;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 230px;
+	left: 750px;
+	top: 325px;
+}
+
+div.addcarrito:hover{
+	background-color: #5cb85c;
+	transition: all 0.6s ease;
+	cursor: pointer;
+}
+
+p.descripcion{
+	position: absolute;
+	height: 100px;
+	width: 550px;
+	left: 450px;
+	top: 120px;
+}
+
+.sepuno{
+	position: absolute;
+	width: 550px;
+	left: 450px;
+	top: 223px;
+}
+
+div.tamano{
+	position: absolute;
+	overflow: hidden;
+	height: 30px;
+	width: 550px;
+	left: 450px;
+	top: 230px;
+}
+
+.infTamano{
+	margin-top: 4px;
+	font-size: .9em;
+	color: #333333;
+}
+
+.optTamano{
+	background-color: #a6a6a6;
+	position: absolute;
+	outline: none;
+	color: white;
+	padding: 2px;
+	width: 250px;
+	left: 300px;
+	top: 2px;
+}
+
+.optTamano:hover{
+	cursor: pointer;
+}
+
+div.piepre{
+	position: absolute;
+	overflow: hidden;
+	height: 30px;
+	width: 550px;
+	left: 450px;
+	top: 275px;
+}
+
+.infPieza{
+	position: absolute;
+	font-size: .9em;
+	color: #333333;
+	top: 5px;
+}
+
+.blockPieza{
+	position: absolute;
+	user-select: none;
+	overflow: hidden;
+	height: 30px;
+	width: 135px;
+	left: 85px;
+}
+
+.opcBlock{
+	display: inline-block;
+	background-color: blue;
+	height: 30px;
+	width: 30px;
+}
+
+#menos{
+	border-radius: 5px 0px 0px 5px;
+	background-color: #a6a6a6;
+	margin-right: -5px;
+}
+
+#unidades{
+	background-color: #c3c3c3;
+	text-align: center;
+	overflow: hidden;
+	width: 75px;
+}
+
+#num{
+	position: absolute;
+	font-weight: bold;
+	left: 60px;
+	top: 4px;
+}
+
+#mas{
+	border-radius: 0px 5px 5px 0px;
+	background-color: #a6a6a6;
+	margin-left: -5px;
+}
+
+#menos:hover, #mas:hover{
+	cursor: pointer;
+}
+
+.sigmenos{
+	position: absolute;
+	font-weight: bold;
+	color: white;
+	left: 12px;
+	top: 3px;
+}
+
+.sigmas{
+	position: absolute;
+	font-weight: bold;
+	color: white;
+	left: 112px;
+	top: 4px;
+}
+
+.infPrecio{
+	position: absolute;
+	font-size: .9em;
+	color: #333333;
+	left: 300px;
+	top: 5px;
+}
+
+.precio{
+	position: absolute;
+	font-weight: bold;
+	user-select: none;
+	left: 400px;
+	top: 3px;
+}

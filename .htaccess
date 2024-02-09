@@ -1,0 +1,43 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on
+RewriteRule ^404$ pag/error/404.php
+RewriteRule ^403$ pag/error/403.php
+RewriteRule ^500$ pag/error/500.php
+RewriteRule ^inicio$ pag/inicio.php
+RewriteRule ^pizzas$ pag/pizzas.php
+RewriteRule ^bebidas$ pag/bebidas.php
+RewriteRule ^postres$ pag/postres.php
+RewriteRule ^carrito$ pag/carrito.php
+RewriteRule ^registro$ pag/register.php
+RewriteRule ^iniciar_sesion$ pag/login.php
+RewriteRule ^pizzas/preparar$ pag/preparar.php
+RewriteRule ^perfil/salir$ php/sessions.php?exit=1
+RewriteRule ^pizzas/(\w+)/?$ pag/producto.php?id=$1
+RewriteRule ^bebidas/(\w+)/?$ pag/producto.php?id=$1
+RewriteRule ^postres/(\w+)/?$ pag/producto.php?id=$1
+RewriteRule ^orden$ pag/procesado.php
+RewriteRule ^carrito/agregar/(\w+)/?$ php/client.php?idProduct=$1
+
+RewriteRule ^admin/clientes$ pag/clientes.php
+RewriteRule ^admin/compras$ pag/compra.php
+RewriteRule ^admin/empleados$ pag/empleados.php
+RewriteRule ^admin/productos$ pag/productos.php
+RewriteRule ^admin/productos/(\w+)/?$ pag/productos.php
+RewriteRule ^admin/promociones$ pag/promociones.php
+RewriteRule ^admin/ingredientes$ pag/ingredientes.php
+RewriteRule ^admin/agregar_producto$ pag/regProducto.php
+RewriteRule ^admin/eliminar/(\w+)/?$ php/drivers.php?no=$1
+RewriteRule ^admin/limpiar_carrito/(\w+)/?$ php/drivers.php?delCar=$1
+RewriteRule ^Universidad/(\w+)/?$ pag/school.php?id=$1
+
+RewriteRule ^test/prueba/uno$ test/pruebas.php
+RewriteRule ^test/prueba/dos$ test/pruebas.php
+RewriteRule ^test/prueba/tres$ test/pruebas.php
+
+ErrorDocument 404 /404
+ErrorDocument 403 /403
+ErrorDocument 500 /500

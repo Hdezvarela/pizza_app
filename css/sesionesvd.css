@@ -1,0 +1,303 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+aside.fondo{
+	background: url(/img/bg_pizzas1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	height: 100vh;
+	width: 58%;
+	right: 0;
+	top: 0px;
+}
+
+main{
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.35);
+	background: #ffffff;
+	position: fixed;
+	height: 100vh;
+	width: 600px;
+}
+
+div.atras{
+	position: absolute;
+	user-select: none;
+	padding: 3px 5px;
+	height: 20px;
+	left: 30px;
+	top: 15px;
+}
+
+div.flecha{
+	background: url(/img/icon/flecha_izq.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+span.txt_atras{
+	display: inline-block;
+	font-weight: bold;
+	font-size: .96em;
+	color: #787878;
+	height: 20px;
+}
+
+div.logotipo{
+	background: url(/img/logotipo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	height: 94px;
+	width: 200px;
+	left: 34.5%;
+	top: 65px;
+}
+
+div.error{
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+	background: #e50d10;
+	position: absolute;
+	text-align: center;
+	user-select: none;
+	color: #ffffff;
+	display: none;
+	height: 25px;
+	width: 375px;
+	top: 175px;
+	left: 18%;
+}
+
+form.iniciar_sesion{
+	position: absolute;
+	height: 290px;
+	width: 375px;
+	top: 200px;
+	left: 18%;
+}
+
+p.txt_titulo{
+	position: absolute;
+	color: #333333;
+	left: 10%;
+	top: 15px;
+}
+
+span.txt_email{
+	background: #ffffff;
+	position: absolute;
+	user-select: none;
+	font-weight: bold;
+	padding: 0px 5px;
+	font-size: .75em;
+	left: 13%;
+	top: 56px;
+}
+
+input.email{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 80%;
+	left: 10%;
+	top: 65px;
+}
+
+input.password{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 80%;
+	top: 125px;
+	left: 10%;
+	
+}
+
+input.btn_iniciar{
+	background: #f5494c;
+	border-radius: 5px;
+	position: absolute;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1em;
+	height: 35px;
+	border: 0px;
+	width: 85%;
+	top: 185px;
+	left: 10%;
+}
+
+span.txt_registro{
+	position: absolute;
+	font-size: .8em;
+	color: #787878;
+	top: 230px;
+	left: 34%;
+}
+
+span.link_registro{
+	text-decoration: none;
+	position: absolute;
+	font-weight: bold;
+	font-size: .9em;
+	color: #f32427;
+	top: 250px;
+	left: 37%;
+}
+
+form.crear_cuenta{
+	position: absolute;
+	display: none;
+	height: 420px;
+	width: 375px;
+	top: 200px;
+	left: 18%;
+}
+
+input.nombre{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 35%;
+	top: 180px;
+	left: 10%;
+}
+
+input.apellidos{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 35%;
+	top: 180px;
+	left: 55%;
+}
+
+input.direccion{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 80%;
+	left: 10%;
+	top: 235px;
+}
+
+input.dia{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 20%;
+	top: 285px;
+	left: 10%;
+}
+
+input.mes{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 20%;
+	top: 285px;
+	left: 40%;
+}
+
+input.ano{
+	border: solid 2px #b3b3b3;
+	border-radius: 5px;
+	position: absolute;
+	padding-left: 15px;
+	font-size: 1em;
+	outline: none;
+	height: 35px;
+	width: 20%;
+	top: 285px;
+	left: 70%;
+}
+
+input.btn_crear{
+	background: #f5494c;
+	border-radius: 5px;
+	position: absolute;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1em;
+	height: 35px;
+	border: 0px;
+	width: 85%;
+	top: 335px;
+	left: 10%;
+}
+
+span.txt_iniciar{
+	position: absolute;
+	font-size: .8em;
+	color: #787878;
+	top: 375px;
+	left: 34%;
+}
+
+span.link_iniciar{
+	text-decoration: none;
+	position: absolute;
+	font-weight: bold;
+	font-size: .9em;
+	color: #f32427;
+	top: 395px;
+	left: 40%;
+}
+
+input.email:focus, input.password:focus, .nombre:focus, .apellidos:focus, .direccion:focus, .dia:focus, .mes:focus, .ano:focus{
+	border-color: #f5494c;
+}
+
+input.btn_iniciar:hover, input.btn_crear:hover{
+	transition: background 0.6s;
+	background: #f4363a;
+	cursor: pointer;
+}
+
+input.btn_iniciar:active, input.btn_crear:active{
+	background: #f32427;
+}
+
+span.link_registro:hover, span.link_iniciar:hover, div.atras{
+	cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
